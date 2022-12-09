@@ -1,0 +1,20 @@
+{
+  "name": "chingu-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot, my discord bot",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "devstart": "nodemon /src/index.js"
+  },
+  "author": "Ernest John Decina",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.4.0",
+    "@discordjs/voice": "^0.14.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "latest-version": "^7.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
